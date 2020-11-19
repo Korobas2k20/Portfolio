@@ -9,16 +9,16 @@
     <title>Портфолио Junior верстальщика</title>
 </head>
 <body>
-   <div class="header">
+   <div class="header" id="header">
     <h1 class="header-title">Андрюша Стороженко</h1>
     <p class="header-subtitle">Junior верстальщик</p>
-    <div class="header-arrow">
+    <a href="#portfolio" class="header-arrow">
         <img src="image/header/chevron-down.svg" alt="Стрела">
-    </div>
+   </a>
    </div>
   
   
-   <div class="portfolio">
+   <div class="portfolio" id="portfolio">
     <div class="container">
        <h2 class="portfolio-header">Портфолио</h2>
        <!--portfolio-card-wrapper-->
@@ -80,6 +80,11 @@
     </div>
 
    </div>
+   <!--Плагины и библиотеки-->
+   <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+   <script src="libs/vide/jquery.vide.min.js"></script>
 
+   <!--Скрипты и бибилиотеки-->
+   <script src="js/main.js"></script>
 </body>
 </html>

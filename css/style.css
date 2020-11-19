@@ -1,6 +1,8 @@
+/* Включить, есть добавлю ещё карту
 *{
     box-sizing: border-box;
 }
+*/
 
 .header{
     /*Определяем модель flex-box для блока .header*/
@@ -22,6 +24,9 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+img{
+  max-width: 100%;  
 }
 
 .header-title{
@@ -60,6 +65,8 @@ body{
 
 }
 .container{
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -85,13 +92,15 @@ body{
     transition: transform 0.2s ease-in;
 }
 
+
 .card:hover{
     transform: translateY(-15px);
 }
+/* отступы
 .card:last-child, .card:nth-last-child(2){
     margin-bottom: 0;
 }
-
+*/
 .card-image{
     margin-bottom: 20px;
 

@@ -73,9 +73,11 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+/* CSS правило для скрытия класса */
 .none{
     display: none;
 }
+/* конец  */
 .portfolio-header{
     margin: 0;
     margin-bottom: 70px;
@@ -86,7 +88,7 @@ img{
     color: #000000;
 }
 
-.card{
+.card{  /* Css правило для наших карточек */
     background-color: white;
     max-width: 540px;
     margin-bottom: 30px;
@@ -95,7 +97,7 @@ img{
 }
 
 
-.card:hover{
+.card:hover{ /* При наведении на карточку что-то случится */
     transform: translateY(-15px);
 }
 /* отступы
@@ -103,30 +105,31 @@ img{
     margin-bottom: 0;
 }
 */
-.card-image{
+.card-image{ /* отступы картинки в карточке */
     margin-bottom: 20px;
 
 }
-.card-title{
+
+.card-title{ /* Работаем с текстом карточки, а именно заголовок */
     margin: 0;
     margin-bottom: 13px;
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
 }
-.card p{
+.card p{ /* Работаем с текстом карточки, а именно параграф */
     margin: 0;
     font-size: 16px;
     line-height: 130%;
 }
-.portfolio-card-wrapper{
+.portfolio-card-wrapper{  /* Сортировка карточек по квадрату */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 /*Footer*/
 
-.footer{
+.footer{ /* делаю подвал сайта */
     padding-bottom: 130px;
     padding-top: 45px;
     background: #1E4776;
